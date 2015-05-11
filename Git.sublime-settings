@@ -1,0 +1,7 @@
+{
+	// point this the installation location of git-flow
+	"git_flow_command": "C:/cygwin64/usr/local/bin/git-flow"
+
+	// Show git flow commands
+	,"flow": true
+}

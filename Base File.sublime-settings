@@ -1,0 +1,12 @@
+{
+	//"jsdocs_extra_tags": ["@author huaqi.fang@synopsys.com", "@version ${1:v0.1}", "@date {{date}}"],
+	"jsdocs_extra_tags_go_after": true,
+	// Since there seems to be no agreed standard for "@return" or "@returns", use this setting to rename it as you wish.
+  	"jsdocs_return_tag": "@retval",
+
+  	// Add a '[description]' placeholder for the return tag?
+  	"jsdocs_return_description": false,
+
+  	// Add a '[description]' placeholder for the param tag?
+  	"jsdocs_param_description": true,
+}

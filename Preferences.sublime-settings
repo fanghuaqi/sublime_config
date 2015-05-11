@@ -1,0 +1,36 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".><",
+			"selector": "text.html"
+		}
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_indentation": true,
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Perforce",
+		"SublimeGDB",
+		"Markdown",
+		"Python Checker",
+		"SublimeLinter",
+		"DoxyDoc",
+		"Vintage",
+		"Makefile"
+	],
+	"index_exclude_patterns":
+	[
+		"C:\\ARC\\software\\mqx2.61\\.metadata*",
+		"*.lnk",
+		"*.log"
+	],
+	"rulers":
+	[
+		80
+	],
+	"spell_check": false,
+	"tab_completion": false,
+	"tab_size": 8
+}
