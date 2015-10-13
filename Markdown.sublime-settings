@@ -3,5 +3,9 @@
 	[
 		"md",
 		"mdown"
-	]
+	],
+	"wrap_width": 120,
+	"rulers": [100],
+	"line_numbers": true,
+
 }

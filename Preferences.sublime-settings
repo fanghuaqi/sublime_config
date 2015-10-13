@@ -6,25 +6,31 @@
 			"selector": "text.html"
 		}
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"default_encoding": "UTF-8",
 	"detect_indentation": true,
-	"font_size": 8,
+	"font_size": 9,
 	"ignored_packages":
 	[
-		"Perforce",
-		"SublimeGDB",
-		"Markdown",
-		"Python Checker",
-		"SublimeLinter",
+		"DocBlockr",
 		"DoxyDoc",
-		"Vintage",
-		"Makefile"
+		"Git",
+		"GitGutter",
+		"Makefile",
+		"Markdown",
+		"Perforce",
+		"Python Checker",
+		"SublimeGDB",
+		"SublimeLinter",
+		"Vintage"
 	],
 	"index_exclude_patterns":
 	[
-		"C:\\ARC\\software\\mqx2.61\\.metadata*",
+		".tags",
+		".tags_sorted_by_file",
+		"*.log",
 		"*.lnk",
-		"*.log"
+		"C:\\ARC\\software\\mqx2.61\\.metadata*"
 	],
 	"rulers":
 	[

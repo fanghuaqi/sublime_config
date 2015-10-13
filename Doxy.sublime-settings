@@ -1,0 +1,117 @@
+{
+    // Turn on logs in console
+    "debug_enabled": false,
+
+    // Prefered command prefix ("@" is more common and shouldn't be change except if you use QT Doc: "\\")
+    "command_prefix": "\\",
+
+    // Enable/Disable internal commands completion
+    "completion_enabled": true,
+
+    // Add aliases to completions suggestions
+    "completion_use_aliases": true,
+
+    // Behaviour for "@brief": remove / preserve
+    "brief_mode": "preserve",
+
+    // Minimum spaces between columns (default is [1, 2]).
+    //
+    // First number, is for first columns
+    // Second number, is for second columns
+    // ...
+    // Last number is apply to all next columns
+    //
+    // For example, a value of [1, 2] might look like this:
+    //
+    // /**
+    //  * @param[in]  foo  Lorem ipsum dolor sit amet.
+    //  * @param[out] bar  Nullam fringilla feugiat pretium. Quisque
+    //  */
+    "min_spaces_between_columns": [ 1, 2 ],
+
+    // Default tabs size in documentation block (last value is repeated if needed)
+    //
+    // example with value [ 13, 6, 8, 8, 8, 8 ]
+    //    /**
+    //     * @param[in]  a     { parameter_description }
+    //      1234567890123      12345678...and continue because there is no more tab
+    //                   123456
+    //     */
+    "prefered_tabs_sizes": [ 13, 6, 8, 8, 8, 8 ],
+
+    // "prefered_line_length" (the value used on wrap command)  is based on
+    // SublimeText "rulers" parameter (default: 80 if empty)
+
+    // Matching ratio to consider two keys similar.
+    // It's a value from 0 to 1. 1 is exact match, 0.6 is close match.
+    //
+    // Take this example:
+    //    /** @param  misstake  Name in comment has an two 'ss'
+    //     */
+    //    void function(int mistake);
+    //
+    // With 0.6, on update, as "misstake" similar to "mistake", the comment become without prompt:
+    //    /* @param  mistake    Name in comment has an two 'ss'
+    //     */
+    //    void function(int mistake);
+    "merge_matching_ratio": 0.6,
+
+    // Styles for new comments (you should only activate one per language, first is best)
+    "prefered_comments_styles": [
+        [
+            "/**",
+            " *"
+        ],
+        [
+            "/*----------------------------------------------------------------------*//**",
+            " *"
+        ],
+        [
+            "//---------------------------------------------------------------------------",
+            "///"
+        ],
+        [
+            "##",
+            "##"
+        ],
+        [
+            "#----------------------------------------------------------------------------",
+            "##"
+        ]
+    ],
+
+    // Commands that should be present in documentation comment block
+    //    - Commands must be prefixed with '@' not '\'
+    //    - Commands are in the python format() style (see https://docs.python.org/3/library/string.html#formatspec for details)
+    //    - Args may be date (see example below)
+    //    - Hidden command "_brief" may be used enter description without prefix
+    "block_layout": {
+        "Doxygen": [
+            //"@copyright 2014-{now:%Y} 20tauri", // fixed date from "current"
+            //"@author 20tauri",                  // fixed author name
+            //"@author",                          // author name have to be entered manually
+            //"@date {now:%Y-%m-%dT%H:%M:%S%z}",  // iso format
+            //"@date {now:%d-%b-%Y}",             // dd-mon-YYYY format
+            //"",
+            "@brief",
+            "",
+            "@param",
+            "",
+            "@tparam",
+            "",
+            "@retval",
+            //"",
+            //"@throws",
+            ""
+        ]
+    },
+
+    // For each sublime text language give the prefered parser and documentation style
+    "profiles": [
+        [
+            [ "c++", "c", "cuda-c++" ],
+            "LanguageCpp",
+            "Doxygen"
+        ]
+    ]
+}

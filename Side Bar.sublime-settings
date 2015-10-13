@@ -1,3 +1,4 @@
 {
-	"version": "setting no longer updated"
+	"version": "setting no longer updated",
+	"use_powershell": false
 }

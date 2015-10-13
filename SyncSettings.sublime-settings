@@ -1,0 +1,32 @@
+/**
+ * Don't edit this file use the one the User folder
+ */
+
+{
+  /**
+    * This token allow to plugin do:
+    * - Create a Gist
+    * - Download a Gist
+    * - Upload a Gist
+   */
+  "access_token": "b29c6cc856a23aa5aa496e7aab0e3b26fbfd7956",
+  /**
+    * This option has a list with the excluded files
+   */
+  "excluded_files": [
+    "Package Control.last-run",
+    "Package Control.merged-ca-bundle",
+    "Package Control.user-ca-bundle",
+    "Package Control.system-ca-bundle",
+    "Package Control.cache",
+    ".DS_Store",
+    ".DS_Store?",
+    "._*",
+    ".Spotlight-V100",
+    ".Trashes",
+    "ehthumbs.db",
+    "Thumbs.db",
+    ".exe",
+    ".dmg"
+  ],
+}
