@@ -29,4 +29,8 @@
     ".exe",
     ".dmg"
   ],
+  /**
+   * This option has the gist id for upload your configuration
+   */
+  "gist_id": ""
 }
