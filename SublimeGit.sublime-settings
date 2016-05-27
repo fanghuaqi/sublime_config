@@ -191,7 +191,7 @@
      * "/usr/local/bin:/usr/bin:/bin"
      *
      */
-     "git_force_path": "C:/cygwin64/bin:C:/cygwin64/usr/bin:C:/cygwin64/usr/local/bin",
+     "git_force_path": "/usr/local/bin:/usr/bin:/bin:C:/cygwin64/bin:C:/cygwin64/usr/bin:C:/cygwin64/usr/local/bin",
 
     /*
      * Fancy Help
