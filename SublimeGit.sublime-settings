@@ -5,7 +5,7 @@
      * If you are experiencing issues, please set this to DEBUG and
      * provide the log when reporting an issue.
      */
-    "log_level": "DEBUG",
+    "log_level": "WARNING",
 
     /*
      * Main encoding used for interacting with Git.

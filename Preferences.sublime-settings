@@ -6,16 +6,34 @@
 			"selector": "text.html"
 		}
 	],
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.out",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip"
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
-	"font_size": 12,
+	"font_size": 14,
 	"ignored_packages":
 	[
-		"DocBlockr",
-		"DoxyDoc",
+		"Deviot",
+		"DoxyDoxygen",
 		"Git",
 		"GitGutter",
+		"Jedi - Python autocompletion",
 		"Makefile",
 		"Markdown",
 		"Perforce",

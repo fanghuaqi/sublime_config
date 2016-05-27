@@ -5,7 +5,9 @@ Package\ Control.ca-bundle
 Package\ Control.system-ca-bundle
 Package\ Control.cache/
 Package\ Control.ca-certs/
+Package\ Control.merged-ca-bundle
 c2u_tmp/
+Deviot/
 
 *.cache
 encoding_cache.json

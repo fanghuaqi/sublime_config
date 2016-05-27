@@ -2,7 +2,7 @@
     // NOTE: You should always edit options in user file, not this file.
 
     // Print debug message
-    "debug": false,
+    "debug": true,
 
     // Auto format on file save
     "autoformat_on_save": false,
@@ -35,7 +35,7 @@
         // will be retrieved from Sublime Text view settings: `tab_size`, `translate_tabs_to_spaces`:
         //   1. If `translate_tabs_to_spaces` is true, "indent" will be "spaces", otherwise, "tab";
         //   2. "indent-spaces" will equal to `tab_size`.
-        "indent": "force-tab",
+        "indent": null,
         "indent-spaces": null,
 
         // === Bracket Modify Options ===
