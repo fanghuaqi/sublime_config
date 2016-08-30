@@ -23,10 +23,10 @@
 		"*.ttf",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
-	"font_size": 14,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Deviot",
@@ -34,7 +34,7 @@
 		"Git",
 		"GitGutter",
 		"Jedi - Python autocompletion",
-		"Makefile",
+		"Makefile Improved",
 		"Markdown",
 		"Perforce",
 		"Python Checker",
