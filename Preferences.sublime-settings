@@ -23,23 +23,26 @@
 		"*.ttf",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
-	"font_size": 13,
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Deviot",
 		"DoxyDoxygen",
+		"Emmet",
 		"Git",
 		"GitGutter",
 		"Jedi - Python autocompletion",
 		"Makefile Improved",
 		"Markdown",
+		"Open-Include",
 		"Perforce",
 		"Python Checker",
 		"SublimeGDB",
 		"SublimeLinter",
+		"Tag",
 		"Vintage"
 	],
 	"index_exclude_patterns":
@@ -48,12 +51,27 @@
 		".tags_sorted_by_file",
 		"*.log",
 		"*.lnk",
-		"C:\\ARC\\software\\mqx2.61\\.metadata*"
+		"*.o",
+		"*.doc",
+		"*.a",
+		"*.bin",
+		"*.hex",
+		".settings",
+		"*.pyc",
+		"*.map",
+		"*.elf",
+		"*.dasm",
+		"*.md",
+		"*.o.d",
+		"*.txt",
+		"*.htm*"
 	],
+	"index_files": false,
 	"rulers":
 	[
 		80
 	],
+	"show_definitions": false,
 	"spell_check": false,
 	"tab_completion": false,
 	"tab_size": 8
