@@ -29,18 +29,12 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"Deviot",
-		"DoxyDoxygen",
 		"Emmet",
-		"Git",
-		"GitGutter",
 		"Jedi - Python autocompletion",
 		"Makefile Improved",
 		"Markdown",
-		"Perforce",
 		"Python Checker",
-		"SublimeGDB",
-		"SublimeLinter",
+		"Sync Settings",
 		"Vintage"
 	],
 	"index_exclude_patterns":
