@@ -29,13 +29,7 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"Emmet",
-		"Jedi - Python autocompletion",
-		"Makefile Improved",
-		"Markdown",
-		"Python Checker",
-		"Sync Settings",
-		"Vintage"
+		"Markdown"
 	],
 	"index_exclude_patterns":
 	[
