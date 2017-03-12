@@ -1,0 +1,19 @@
+// Trailing Spaces' default settings.
+//
+// In order to tweak the settings, you should NOT edit this file, but instead
+// the user-specific, empty-by-default version under "Preferences / Package
+// Settings / Trailing Spaces / Settings - User".
+//
+// See Trailing Spaces' README for detailed instructions.
+{
+    // By default, deleting trailing spaces does not cause the document to be
+    // saved.
+    // Set to true to force saving after trailing spaces have been deleted.
+    // This setting is irrelevant and will be ignored if trim_on_save is true.
+    "trailing_spaces_save_after_trim": true,
+
+    // By default, nothing happens on save.
+    // Set to true to trim trailing spaces before saving, with respect to the
+    // other settings.
+    "trailing_spaces_trim_on_save": true
+}
