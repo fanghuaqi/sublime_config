@@ -12,3 +12,4 @@ Deviot/
 *.cache
 encoding_cache.json
 *.bak
+oscrypto-ca-bundle.crt

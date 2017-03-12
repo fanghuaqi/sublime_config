@@ -30,10 +30,11 @@
 	"ignored_packages":
 	[
 		"Emmet",
-		"Jedi - Python autocompletion",
-		"Makefile Improved",
+		"Makefile",
 		"Markdown",
 		"Python Checker",
+		"Nodejs",
+		"Python",
 		"Vintage"
 	],
 	"index_exclude_patterns":
