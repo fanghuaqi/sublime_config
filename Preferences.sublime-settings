@@ -26,7 +26,7 @@
 	"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
-	"font_size": 8,
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"Emmet",
