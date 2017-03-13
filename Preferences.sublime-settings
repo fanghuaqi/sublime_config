@@ -26,12 +26,13 @@
 	"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
-	"font_size": 11,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Emmet",
 		"Makefile",
 		"Markdown",
+		"Python Checker",
 		"Nodejs",
 		"Python",
 		"Vintage"
@@ -57,6 +58,7 @@
 		"*.txt",
 		"*.htm*"
 	],
+    	"word_wrap": "false",
 	"index_files": false,
 	"rulers":
 	[
