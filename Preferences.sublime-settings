@@ -37,7 +37,6 @@
 		"Jedi - Python autocompletion",
 		"Makefile Improved",
 		"Markdown",
-		"Open-Include",
 		"Perforce",
 		"Python Checker",
 		"SublimeGDB",
@@ -66,6 +65,7 @@
 		"*.txt",
 		"*.htm*"
 	],
+  "word_wrap": "false",
 	"index_files": false,
 	"rulers":
 	[
