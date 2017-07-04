@@ -26,15 +26,16 @@
 	"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
-	"font_size": 12,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Emmet",
 		"Makefile",
 		"Markdown",
-		"Python Checker",
 		"Nodejs",
 		"Python",
+		"Python Checker",
+		"RestructuredText",
 		"Vintage"
 	],
 	"index_exclude_patterns":
@@ -58,7 +59,6 @@
 		"*.txt",
 		"*.htm*"
 	],
-    	"word_wrap": "false",
 	"index_files": false,
 	"rulers":
 	[
@@ -67,5 +67,6 @@
 	"show_definitions": false,
 	"spell_check": false,
 	"tab_completion": false,
-	"tab_size": 8
+	"tab_size": 8,
+	"word_wrap": "false"
 }
