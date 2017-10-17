@@ -150,6 +150,11 @@
 										"id": "stino_platform_1.6.19",
 										"command": "stino_install_platform",
 										"args": {"package_name": "arduino", "platform_name": "Arduino AVR Boards", "version": "1.6.19"}
+									},
+									{										"caption": "1.6.20",
+										"id": "stino_platform_1.6.20",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino AVR Boards", "version": "1.6.20"}
 									}
 								]							},
 							{
@@ -292,6 +297,11 @@
 										"id": "stino_platform_1.6.15",
 										"command": "stino_install_platform",
 										"args": {"package_name": "arduino", "platform_name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.6.15"}
+									},
+									{										"caption": "1.6.16",
+										"id": "stino_platform_1.6.16",
+										"command": "stino_install_platform",
+										"args": {"package_name": "arduino", "platform_name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.6.16"}
 									}
 								]							},
 							{
@@ -556,6 +566,30 @@
 										"id": "stino_platform_1.6.5-947-g39819f0",
 										"command": "stino_install_platform",
 										"args": {"package_name": "esp8266", "platform_name": "esp8266", "version": "1.6.5-947-g39819f0"}
+									}
+								]							}
+						]
+					},
+					{
+						"caption": "industruino",
+						"id": "stino_package_industruino",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "Industruino SAMD Boards (32-bits ARM Cortex-M0+)",
+								"id": "stino_platform_Industruino SAMD Boards (32-bits ARM Cortex-M0+)",
+								"children":
+								[									{"caption": "-"},
+									{										"caption": "1.0.0",
+										"id": "stino_platform_1.0.0",
+										"command": "stino_install_platform",
+										"args": {"package_name": "industruino", "platform_name": "Industruino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.0.0"}
+									},
+									{										"caption": "1.0.1",
+										"id": "stino_platform_1.0.1",
+										"command": "stino_install_platform",
+										"args": {"package_name": "industruino", "platform_name": "Industruino SAMD Boards (32-bits ARM Cortex-M0+)", "version": "1.0.1"}
 									}
 								]							}
 						]
